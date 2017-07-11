@@ -1,6 +1,6 @@
 FROM maven:3.5-jdk-7
 
-AUTHOR Raj
+MAINTAINER Raj
 
 PWD /usr/src/code
 
