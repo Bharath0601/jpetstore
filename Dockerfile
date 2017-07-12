@@ -1,6 +1,6 @@
 FROM maven:3.5-jdk-7
 
-MAINTAINER RajDocker
+MAINTAINER Raj
 
 WORKDIR /usr/src/code
 
