@@ -4,7 +4,7 @@ MAINTAINER Raj
 
 WORKDIR /usr/src/code
 
-RUN apt-get update && apt-get -y git && git clone https://github.com/rajtotaldevops/jpetstore.git \
+RUN git clone https://github.com/rajtotaldevops/jpetstore.git \
 	&& cd jpetstore
 
 CMD ["mvn", "clean", "package"]
