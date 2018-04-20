@@ -12,10 +12,12 @@ pipeline {
 		
 		//}
 		stage('SonarQube analysis') {
-			// requires SonarQube Scanner 2.8+
-			//def scannerHome = tool 'SonarQube Scanner 2.8';
-			withSonarQubeEnv('sonar') {
-				sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar'
+			steps{
+				// requires SonarQube Scanner 2.8+
+				//def scannerHome = tool 'SonarQube Scanner 2.8';
+				withSonarQubeEnv('sonar') {
+					sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar'
+				}
 			}
 		}
 		
