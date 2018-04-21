@@ -21,11 +21,11 @@ pipeline {
 			}
 		}
 		
-		//stage('Build App'){
-		//	steps{
-		//		sh "mvn clean install"
-		//	}
-		//}
+		stage('Build App'){
+			steps{
+				sh "mvn clean install"
+			}
+		}
 	}
 
 }
