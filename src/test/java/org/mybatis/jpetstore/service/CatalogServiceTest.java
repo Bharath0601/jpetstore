@@ -65,7 +65,7 @@ public class CatalogServiceTest {
     
     //then
     //Modify this line below: Original value is:assertEquals(2, r.size());
-    assertEquals(2, r.size());
+    assertEquals(20, r.size());
     assertSame(r.get(0), l1.get(0));
     assertSame(r.get(1), l2.get(0));
   }
