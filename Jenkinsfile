@@ -26,6 +26,13 @@ pipeline {
 				sh "mvn clean install"
 			}
 		}
+		
+		stage('Upload War'){
+			steps{
+			
+				nexusArtifactUploader artifacts: [[artifactId: 'petstoreWar', classifier: 'debug', file: 'target/jpetstore.war', type: 'war']], credentialsId: 'nexusID', groupId: 'org', nexusUrl: '192.168.77.11:8443/repository/jpetStoreRepo', nexusVersion: 'nexus3', protocol: 'https', repository: 'jpetStoreRepo', version: '0.0.1'
+			}
+		}
 	}
 
 }
