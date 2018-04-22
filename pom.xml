@@ -32,35 +32,8 @@
   <artifactId>maven-jpetstore</artifactId>
   <packaging>war</packaging>
 
-   <name>JPetStore Demo 6</name>
+   <name>JPetStore</name>
   <url>http://www.mybatis.org</url>
-
-  <!-- <scm>
-    <url>http://github.com/mybatis/jpetstore-6</url>
-    <connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/mybatis/jpetstore-6.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
-  <issueManagement>
-    <system>GitHub Issue Management</system>
-    <url>https://github.com/mybatis/jpetstore/issues</url>
-  </issueManagement>
-  <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/mybatis/jpetstore-6</url>
-  </ciManagement>
-  <distributionManagement>
-    <site>
-      <id>gh-pages</id>
-      <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-    </site>
-	<snapshotRepository>
-		<id>nexus-snapshots</id>
-		<url>http://16.181.235.56:8088/nexus/content/repositories/Jpetstore</url>
-</snapshotRepository>
-</distributionManagement>
-  </distributionManagement> -->
 
   <dependencies>
     <dependency>
